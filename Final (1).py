@@ -524,11 +524,8 @@ def Qant():
     print("Armaments: GN Sword V, GN Sword Bit, GN Shield")
     print("Special Features: Bit Control System, GN Field, Miniature Veda Terminal, Quantum Brainwave Control System, Twin Drive System, Quantum System, Quantum Teleportation System, Trans-am System, Veda-linked Operating System")
     print("Pilots: Setsuna F. Seiei")
-    
-
 class Suit():
     '''Classes a custom Mobile Suit'''
-
     def __init__(self, name, height, weight, power, armaments, features, pilots):
         '''Create's your own stats'''
         self.name = name
