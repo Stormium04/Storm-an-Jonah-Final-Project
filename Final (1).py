@@ -52,7 +52,7 @@ def zeta(string):
         print("MSA-003 Nemo, MSA-005 Methuss, MSN-00100 Hyaku Shiki, MSZ-006 Zeta Gundam, RX-178 Gundam MKII")
     elif string == 'Titans':
         print("MRX-009 Psycho Gundam, NRX-044 Asshimar, PMX-000 Messala, PMX-003 The O")
-def ZZ(string):
+def Zz(string):
     '''Returns ZZ mobile suits.'''
     if string == 'AEUG':
         print("MSZ-010 ZZ Gundam")
@@ -524,8 +524,11 @@ def Qant():
     print("Armaments: GN Sword V, GN Sword Bit, GN Shield")
     print("Special Features: Bit Control System, GN Field, Miniature Veda Terminal, Quantum Brainwave Control System, Twin Drive System, Quantum System, Quantum Teleportation System, Trans-am System, Veda-linked Operating System")
     print("Pilots: Setsuna F. Seiei")
+    
+
 class Suit():
     '''Classes a custom Mobile Suit'''
+
     def __init__(self, name, height, weight, power, armaments, features, pilots):
         '''Create's your own stats'''
         self.name = name
@@ -537,7 +540,7 @@ class Suit():
         self.pilots = pilots
     def __str__(self):
         '''Turns stats into a string'''
-        string = 'Name: ' + self.name + ' Height: ' + self.height + ', Weight: ' + self.power + ', Armaments: ' + self.armaments + ', Features: ' + self.features + ', Pilots: ' + self.pilots
+        string = 'Name: ' + self.name + ' \nHeight: ' + self.height + '\nWeight: ' + self.power + '\nArmaments: ' + self.armaments + '\nFeatures: ' + self.features + '\nPilots: ' + self.pilots
         return string
 
 
@@ -545,5 +548,8 @@ class Suit():
 
     
     
+
+    
+
 
     
